@@ -1,0 +1,24 @@
+:root {
+    --first-color: #ccddff;
+    --second-color: #9494b8;
+}
+
+.navigation-bar {
+    background-color: var(--second-color);
+    display: flex;
+}
+
+.blog-section {
+   background-color: var(--first-color);
+}
+
+.homepage-title {    
+    color: var(--second-color);
+    background-color: var(--first-color);
+    max-width: 250px;
+    margin: 20px;
+}
+
+.btn {
+    margin: 20px;
+}
