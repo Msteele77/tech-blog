@@ -12,12 +12,12 @@
     <header>
     <div class="container-fluid navigation-bar">
         <nav>
-            <!--{{#if loggedIn}}!-->
+            {{#if loggedIn}}
             <a href="/dashboard">Dashboard</a>
             <button id="logout" class="btn-no-style">Logout</button>
-            <!--{{else}}!-->
+            {{else}}
             <a href="/login">Login</a>
-            <!--{{/if}}!-->
+            {{/if}}
 
             <div class="homepage-title">
             <a href="/">
@@ -30,13 +30,16 @@
 
 
     <main>
-        <!--{{{ body }}}!-->
+        {{{ body }}}
     </main>
+
+
+
+
+{{#if loggedIn}}
+<script src="/javascript/logout.js"></script>
+{{/if}}
 
 
 </body>
 </html>
-
-<!--{{#if loggedIn}}
-<script src="/javascript/logout.js"></script>
-{{/if}}!-->
