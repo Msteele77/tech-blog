@@ -15,7 +15,7 @@
 .homepage-title {    
     color: var(--second-color);
     background-color: var(--first-color);
-    max-width: 250px;
+    max-width: 400px;
     margin: 20px;
 }
 
@@ -48,7 +48,7 @@ post.title {
 .new-post {
     border: 1px solid black;
     max-width: 700px;
-    margin: 20px;
+    margin-left: 20px;
 }
 
 .your-posts {
@@ -57,4 +57,8 @@ post.title {
     margin: 20px;
 }
 
+
+main {
+    background-color: var(--first-color);
+}
 

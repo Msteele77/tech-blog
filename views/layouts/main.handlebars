@@ -15,17 +15,18 @@
     <div class="container-fluid navigation-bar">
         <nav>
             {{#if loggedIn}}
-            <a href="/dashboard">Dashboard</a>
-            <button id="logout" class="btn-no-style">Logout</button>
+            <a href="/" class="btn btn-light">Homepage</a>
+            <a href="/dashboard" class="btn btn-light">Dashboard</a>
+            <button id="logout" class="btn btn-light">Logout</button>
             {{else}}
-            <a href="/login">Login</a>
+            <a href="/login" class="btn btn-light">Login</a>
             {{/if}}
 
             <div class="homepage-title">
-            <a href="/">
-                <h1>The Tech Blog</h1>
-            </a>
+            <h1>The Tech Blog</h1>
             </div>
+
+            
         </nav>
     </div>   
     </header>
